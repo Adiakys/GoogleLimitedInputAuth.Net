@@ -1,0 +1,30 @@
+<Project>
+    <PropertyGroup>
+        <!-- NuGet Package Info -->
+        <PackageId>Adiakys.GoogleLimitedInputAuth.Net</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Adiakys</Authors>
+        <Description>Google Device Authorization Flow Library for .NET.</Description>
+        <RepositoryUrl>https://github.com/Adiakys/GoogleLimitedInputAuth.Net</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>dotnet;library;Google;Device;GoogleDevice;Authorization;Ayth</PackageTags>
+        
+        <!-- Package Icon -->
+        <PackageIcon>icon.png</PackageIcon>
+        
+        <!-- Build and Publish Settings -->
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <IncludeSource>true</IncludeSource>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Optional: Additional files for the NuGet package -->
+        <None Include="../LICENSE" Pack="true" PackagePath="" />
+        <None Include="../README.md" Pack="true" PackagePath="" />
+        <None Include="../icon.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>
