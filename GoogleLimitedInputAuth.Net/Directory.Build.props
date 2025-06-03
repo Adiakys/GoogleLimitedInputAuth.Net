@@ -9,6 +9,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageTags>dotnet;library;Google;Device;GoogleDevice;Authorization;Ayth</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         
         <!-- Package Icon -->
         <PackageIcon>icon.png</PackageIcon>
