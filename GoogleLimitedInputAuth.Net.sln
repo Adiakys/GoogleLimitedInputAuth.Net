@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleLimitedInputAuth.Net", "GoogleLimitedInputAuth.Net\GoogleLimitedInputAuth.Net.csproj", "{AB477F85-6917-4F86-A454-8BFFDC786687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleLimitedInputAuth.Net.UsageExample", "GoogleLimitedInputAuth.Net.UsageExample\GoogleLimitedInputAuth.Net.UsageExample.csproj", "{D148ADC9-F29D-42BB-96C9-A9A209EE313B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleLimitedInputAuth.Net.Tests", "GoogleLimitedInputAuth.Net.Tests\GoogleLimitedInputAuth.Net.Tests.csproj", "{233A41BA-DF66-49B8-B9D1-99011A81AD32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB477F85-6917-4F86-A454-8BFFDC786687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB477F85-6917-4F86-A454-8BFFDC786687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB477F85-6917-4F86-A454-8BFFDC786687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB477F85-6917-4F86-A454-8BFFDC786687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D148ADC9-F29D-42BB-96C9-A9A209EE313B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D148ADC9-F29D-42BB-96C9-A9A209EE313B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D148ADC9-F29D-42BB-96C9-A9A209EE313B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D148ADC9-F29D-42BB-96C9-A9A209EE313B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233A41BA-DF66-49B8-B9D1-99011A81AD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233A41BA-DF66-49B8-B9D1-99011A81AD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233A41BA-DF66-49B8-B9D1-99011A81AD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233A41BA-DF66-49B8-B9D1-99011A81AD32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

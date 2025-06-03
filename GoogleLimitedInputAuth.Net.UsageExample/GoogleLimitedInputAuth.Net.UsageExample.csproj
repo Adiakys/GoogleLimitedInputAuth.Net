@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-GoogleLimitedInputAuth.Net.UsageExample-4a9cce70-e5cc-4612-af06-b557b95492cb</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Google.Apis.YouTube.v3" Version="1.69.0.3764" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GoogleLimitedInputAuth.Net\GoogleLimitedInputAuth.Net.csproj" />
+    </ItemGroup>
+</Project>
